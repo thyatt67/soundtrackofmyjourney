@@ -340,3 +340,53 @@ body {
     border-radius: 22px;
   }
 }
+
+
+/* Updated illustrated homepage */
+.hero.hero-artwork {
+  min-height: auto;
+  display: block;
+  padding: 0;
+  background: #eee5d4;
+  color: inherit;
+}
+
+.hero-image-wrap {
+  width: min(100%, 1600px);
+  padding: 0;
+  position: relative;
+}
+
+.journey-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: calc(100vh - 78px);
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.hero-button {
+  position: absolute;
+  left: 7%;
+  bottom: 5%;
+  margin: 0;
+  box-shadow: 0 12px 30px rgba(35, 44, 52, 0.22);
+}
+
+@media (max-width: 900px) {
+  .hero-image-wrap {
+    padding-bottom: 28px;
+  }
+
+  .journey-hero-image {
+    max-height: none;
+  }
+
+  .hero-button {
+    position: static;
+    display: table;
+    margin: 24px auto 0;
+  }
+}
