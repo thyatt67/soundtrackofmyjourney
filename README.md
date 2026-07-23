@@ -1,15 +1,10 @@
-# The Soundtrack of My Journey — Updated Starter Website
+# The Soundtrack of My Journey — Website with Portrait
 
-This version includes:
+This version includes Tom Hyatt's illustrated portrait on the homepage, along with:
 
 - My Story
 - The Journey
-- The full story behind the first song, "I'm Still Here"
+- My Music
+- The complete story behind "I'm Still Here"
 
-## Files
-
-- `index.html`
-- `styles.css`
-- `script.js`
-
-Open `index.html` in a browser to preview it.
+Open `index.html` in a browser to preview the website.
