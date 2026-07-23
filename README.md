@@ -1,11 +1,12 @@
-# TomHyatt.us — The Soundtrack of My Journey
+# TomHyatt.us — Rebuilt Website
 
-Updated homepage featuring the new illustrated hero image.
+Site flow:
+1. My Story
+2. My Journey
+3. My Music
 
-Sections:
-- My Story
-- The Journey
-- My Music
-- The story behind “I'm Still Here”
+My Music currently includes:
+- I'm Still Here
+- Journey Back to God's Heart
 
-Open `index.html` in a browser to preview the site.
+Open index.html to preview the website.
