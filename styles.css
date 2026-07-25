@@ -354,6 +354,19 @@ blockquote span {
   color: var(--muted);
 }
 
+.spotify-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.spotify-button {
+  min-height: 46px;
+  padding-inline: 20px;
+  font-size: 0.9rem;
+}
+
 .song-list {
   display: grid;
   gap: 24px;
@@ -463,6 +476,20 @@ footer {
 
 .footer-content p {
   margin: 3px 0 0;
+}
+
+.footer-contact {
+  font-size: 0.92rem;
+}
+
+.footer-contact a {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-contact a:hover {
+  color: var(--warm-light);
 }
 
 @media (max-width: 800px) {
